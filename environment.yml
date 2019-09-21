@@ -6,4 +6,5 @@ dependencies:
   - django
   - sqlparse
   - psycopg2
-  - Pillow
+  pip:
+    - Pillow
