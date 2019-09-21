@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfolio',
-        'USER': 'adm_eam',
-        'PASSWORD': 'eam123',
+        'USER': 'docker',
+        'PASSWORD': 'docker',
         'HOST': 'localhost',
         'PORT': '25432'
         }
@@ -127,6 +127,6 @@ STATIC_URL = '/static/'
 
 
 # EAM - custom variables
-MEDIA_PATH = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/'

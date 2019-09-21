@@ -1,0 +1,2 @@
+python manage.py createsuperuser
+# usr: ernestoneam / psw:eam_123
