@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="dockr_pgr_portfolio" uuid="dacc5a46-d71b-4689-a15c-95f25b4ecb40">
+    <data-source source="LOCAL" name="Django default" uuid="5188f8cc-6ba1-46e6-a51a-c7b30c3fb543">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/portfolio/settings.py</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:25432/portfolio</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:25432/portfolio</jdbc-url>
     </data-source>
   </component>
 </project>
