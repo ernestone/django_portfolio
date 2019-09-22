@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Bash in docker container" type="ShConfigurationType" editBeforeRun="true" activateToolWindowBeforeRun="false">
+    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../../../snippets/dockers/exec_bash_in_container.sh" />
+    <option name="SCRIPT_OPTIONS" value="postgis" />
+    <option name="INTERPRETER_PATH" value="/bin/bash" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <method v="2" />
+  </configuration>
+</component>
